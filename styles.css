@@ -1,0 +1,96 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, sans-serif;
+}
+
+.centro {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.logo {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.campo-busqueda {
+    width: 800%;
+    max-width: 480px;
+    padding: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #d4d2d2;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.boton {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    border: 1px solid #c6c6c6;
+    background-color: #e8e8e8;
+}
+
+.barra-superior {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    width: 100%; 
+}
+
+.barra-superior a {
+    text-decoration: none;
+    color: #5f6368;
+    margin-left: 15px; 
+    font-size: 14px;
+}
+
+/*.icono-cuenta {
+    background-color: #5f6368;
+    color: #ffffff;
+    padding: 5px 5px;
+    border-radius: 100%;
+    text-decoration: none;
+}*/
+
+.icono-google-apps {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url('img/googleapps.png'); 
+    background-size: cover;
+    margin-left: 15px; 
+    text-decoration: none;
+}
+
+.barra-inferior {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ 
+}
+
+.barra-inferior a {
+    text-decoration: none;
+    color: #5f6368;
+    margin: 0 10px;
+    font-size: 14px;
+}
